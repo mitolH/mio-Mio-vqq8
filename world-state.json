@@ -1,25 +1,273 @@
 {
-  "event": {
-    "id": "evt_init",
-    "category": "daily",
-    "name": "降生",
-    "description": "Mio 来到了这个世界。",
-    "timestamp": 1770736654028,
-    "game_turn": 0
+  "day": {
+    "dayNumber": 1,
+    "type": "eventful",
+    "summary": "[day-1] 小病一场 / 午后小憩 / [李郎中] 聊养生之道 / [李郎中] 聊养生之道 / [李郎中] 聊养生之道",
+    "timestamp": 1770737460978
   },
+  "events": [
+    {
+      "slot": 16,
+      "event": {
+        "id": "evt_1770737421090_b5adc1",
+        "category": "daily",
+        "name": "午后小憩",
+        "description": "在树荫下打了个盹，精神恢复了不少。"
+      },
+      "locationId": "loc_13",
+      "impactScore": 8
+    },
+    {
+      "slot": 25,
+      "event": {
+        "id": "npc_npc_2_24",
+        "category": "daily",
+        "name": "[李郎中] 聊养生之道",
+        "description": "李郎中传授了一些养生秘诀。"
+      },
+      "locationId": "loc_6",
+      "impactScore": 8
+    },
+    {
+      "slot": 26,
+      "event": {
+        "id": "npc_npc_2_25",
+        "category": "daily",
+        "name": "[李郎中] 聊养生之道",
+        "description": "李郎中传授了一些养生秘诀。"
+      },
+      "locationId": "loc_6",
+      "impactScore": 8
+    },
+    {
+      "slot": 28,
+      "event": {
+        "id": "npc_npc_2_27",
+        "category": "daily",
+        "name": "[李郎中] 聊养生之道",
+        "description": "李郎中传授了一些养生秘诀。"
+      },
+      "locationId": "loc_6",
+      "impactScore": 8
+    },
+    {
+      "slot": 29,
+      "event": {
+        "id": "npc_npc_2_28",
+        "category": "daily",
+        "name": "[李郎中] 聊养生之道",
+        "description": "李郎中传授了一些养生秘诀。"
+      },
+      "locationId": "loc_6",
+      "impactScore": 8
+    },
+    {
+      "slot": 35,
+      "event": {
+        "id": "evt_1770737435567_c1b101",
+        "category": "daily",
+        "name": "小病一场",
+        "description": "感染了风寒，在床上休息了几日。"
+      },
+      "locationId": "loc_8",
+      "impactScore": 15
+    },
+    {
+      "slot": 39,
+      "event": {
+        "id": "npc_npc_3_38",
+        "category": "daily",
+        "name": "[赵捕头] 闲谈治安",
+        "description": "赵捕头提醒最近镇外不太平，要小心。"
+      },
+      "locationId": "loc_5",
+      "impactScore": 2
+    },
+    {
+      "slot": 40,
+      "event": {
+        "id": "npc_npc_3_39",
+        "category": "daily",
+        "name": "[赵捕头] 闲谈治安",
+        "description": "赵捕头提醒最近镇外不太平，要小心。"
+      },
+      "locationId": "loc_5",
+      "impactScore": 2
+    },
+    {
+      "slot": 44,
+      "event": {
+        "id": "npc_npc_1_43",
+        "category": "daily",
+        "name": "[张掌柜] 购买物品",
+        "description": "从张掌柜处购买了一些日用品。"
+      },
+      "locationId": "loc_3",
+      "impactScore": 8
+    }
+  ],
+  "movements": [
+    {
+      "slot": 0,
+      "fromLocationId": "loc_3",
+      "toLocationId": "loc_8"
+    },
+    {
+      "slot": 3,
+      "fromLocationId": "loc_8",
+      "toLocationId": "loc_9"
+    },
+    {
+      "slot": 4,
+      "fromLocationId": "loc_9",
+      "toLocationId": "loc_8"
+    },
+    {
+      "slot": 5,
+      "fromLocationId": "loc_8",
+      "toLocationId": "loc_5"
+    },
+    {
+      "slot": 8,
+      "fromLocationId": "loc_5",
+      "toLocationId": "loc_5"
+    },
+    {
+      "slot": 9,
+      "fromLocationId": "loc_5",
+      "toLocationId": "loc_4"
+    },
+    {
+      "slot": 10,
+      "fromLocationId": "loc_4",
+      "toLocationId": "loc_3"
+    },
+    {
+      "slot": 11,
+      "fromLocationId": "loc_3",
+      "toLocationId": "loc_14"
+    },
+    {
+      "slot": 14,
+      "fromLocationId": "loc_14",
+      "toLocationId": "loc_14"
+    },
+    {
+      "slot": 15,
+      "fromLocationId": "loc_14",
+      "toLocationId": "loc_13"
+    },
+    {
+      "slot": 16,
+      "fromLocationId": "loc_13",
+      "toLocationId": "loc_14"
+    },
+    {
+      "slot": 17,
+      "fromLocationId": "loc_14",
+      "toLocationId": "loc_13"
+    },
+    {
+      "slot": 18,
+      "fromLocationId": "loc_13",
+      "toLocationId": "loc_16"
+    },
+    {
+      "slot": 19,
+      "fromLocationId": "loc_16",
+      "toLocationId": "loc_6"
+    },
+    {
+      "slot": 22,
+      "fromLocationId": "loc_6",
+      "toLocationId": "loc_6"
+    },
+    {
+      "slot": 23,
+      "fromLocationId": "loc_6",
+      "toLocationId": "loc_6"
+    },
+    {
+      "slot": 26,
+      "fromLocationId": "loc_6",
+      "toLocationId": "loc_6"
+    },
+    {
+      "slot": 29,
+      "fromLocationId": "loc_6",
+      "toLocationId": "loc_6"
+    },
+    {
+      "slot": 30,
+      "fromLocationId": "loc_6",
+      "toLocationId": "loc_6"
+    },
+    {
+      "slot": 31,
+      "fromLocationId": "loc_6",
+      "toLocationId": "loc_6"
+    },
+    {
+      "slot": 32,
+      "fromLocationId": "loc_6",
+      "toLocationId": "loc_8"
+    },
+    {
+      "slot": 35,
+      "fromLocationId": "loc_8",
+      "toLocationId": "loc_5"
+    },
+    {
+      "slot": 40,
+      "fromLocationId": "loc_5",
+      "toLocationId": "loc_5"
+    },
+    {
+      "slot": 41,
+      "fromLocationId": "loc_5",
+      "toLocationId": "loc_4"
+    },
+    {
+      "slot": 42,
+      "fromLocationId": "loc_4",
+      "toLocationId": "loc_3"
+    },
+    {
+      "slot": 44,
+      "fromLocationId": "loc_3",
+      "toLocationId": "loc_3"
+    },
+    {
+      "slot": 45,
+      "fromLocationId": "loc_3",
+      "toLocationId": "loc_3"
+    },
+    {
+      "slot": 46,
+      "fromLocationId": "loc_3",
+      "toLocationId": "loc_3"
+    },
+    {
+      "slot": 47,
+      "fromLocationId": "loc_3",
+      "toLocationId": "loc_3"
+    }
+  ],
   "character": {
     "name": "Mio",
     "age": 0,
     "state": "born",
     "attributes": {
-      "health": 80,
-      "mood": 70,
+      "health": 90,
+      "mood": 79,
       "social": 50,
-      "wealth": 40
-    }
+      "wealth": 35
+    },
+    "currentLocationId": "loc_3",
+    "lifestyle": "child"
   },
   "world": {
-    "turn": 0,
+    "turn": 1,
     "relationships": [],
     "flags": []
   }
